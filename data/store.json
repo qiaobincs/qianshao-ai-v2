@@ -1,0 +1,67 @@
+{
+  "users": [
+    {
+      "id": "u001",
+      "phone": "13800000001",
+      "password": "$2b$10$QC1mMIZvwo6rpOgplZNnVuXZFE7lZVdCAVlHSLu73HHlBfK0v459K",
+      "name": "演示客户",
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "agents": [
+    {
+      "id": "a001",
+      "name": "AI 商业认知课",
+      "category": "AI第一课",
+      "description": "面向企业管理者，快速建立对 AI 技术趋势与落地路径的系统认知，帮助决策层理解 AI 能为业务带来的真实价值。",
+      "bot_id": "",
+      "api_key": "",
+      "enabled": 1,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "a002",
+      "name": "AI 应用场景拆解师",
+      "category": "AI第一课",
+      "description": "基于您的行业和岗位，精准拆解可落地的 AI 应用场景，输出定制化的 AI 转型建议方案。",
+      "bot_id": "",
+      "api_key": "",
+      "enabled": 1,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "a003",
+      "name": "智能获客文案生成器",
+      "category": "营销获客",
+      "description": "输入产品卖点与目标客户画像，一键生成多平台适配的营销文案，覆盖小红书、朋友圈、公众号等渠道。",
+      "bot_id": "",
+      "api_key": "",
+      "enabled": 1,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "a004",
+      "name": "客户需求洞察分析师",
+      "category": "营销获客",
+      "description": "上传客户沟通记录或反馈数据，AI 自动提炼核心需求、痛点标签与购买意向评分，助力精准营销。",
+      "bot_id": "",
+      "api_key": "",
+      "enabled": 1,
+      "created_at": "2025-01-01T00:00:00Z"
+    },
+    {
+      "id": "a005",
+      "name": "会议纪要与待办提取助手",
+      "category": "管理提效",
+      "description": "将会议录音或文字记录投入，AI 自动生成结构化纪要、提取关键决策与待办事项，分配责任人与截止日期。",
+      "bot_id": "",
+      "api_key": "",
+      "enabled": 1,
+      "created_at": "2025-01-01T00:00:00Z"
+    }
+  ],
+  "config": {
+    "global_api_key": "",
+    "global_bot_id": ""
+  }
+}
