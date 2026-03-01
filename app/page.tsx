@@ -38,8 +38,8 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center relative overflow-hidden">
       {/* Decorative background elements */}
-      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-[var(--klein)] opacity-5 blur-3xl pointer-events-none" />
-      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-[var(--klein-light)] opacity-5 blur-3xl pointer-events-none" />
+      <div className="absolute top-1/4 left-1/4 w-96 h-96 rounded-full bg-[var(--klein)] opacity-5 blur-3xl" style={{pointerEvents:'none'}} />
+      <div className="absolute bottom-1/4 right-1/4 w-80 h-80 rounded-full bg-[var(--klein-light)] opacity-5 blur-3xl" style={{pointerEvents:'none'}} />
 
       <div className="w-full max-w-md mx-4 fade-in">
         {/* Logo / Brand */}
